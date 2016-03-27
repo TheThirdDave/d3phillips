@@ -1,2 +1,2 @@
-# d3phillips
+# D3Phillips
 Portfolio of work and experience
