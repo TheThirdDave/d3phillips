@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+
+    <link href="static/css/materialize.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script src="static/js/materialize.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">David Phillips III</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">David</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s6 offset-s3 col m4 offset-m4 l4 offset-l4">
+        <img class="circle responsive-img" src="static/img/profilePic.png"/>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <h3 class="center-align">
+          Seeking Experiences.
+          <br/>Learning From Them.
+          <br/>Applying them to the future.
+        </h3>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="row">
+      <div class="col s4">
+        <h4 class="center-align">Outdoors</h4>
+        <p class="left-align">Outdoor things here. Skiing. Biking. Hiking. Soccer. Adventure.</p>
+        <!-- Want to replace this with a card that has a transition to more information here -->
+      </div>
+      <div class="col s4">
+        <i class="large material-icons">devices</i>
+        <h4 class="center-align">Technology</h4>
+        <p class="left-align">Like staying on the new things. I would list but they change to fast. Google fan.</p>
+        <!-- Want to replace this with a card that has a transition to more information here -->
+      </div>
+      <div class="col s4">
+        <h4 class="center-align">Content</h4>
+        <p class="left-align">Photography, videography, and editing. I like being able to tell stories to others in unique ways.</p>
+        <!-- Want to replace this with a card that has a transition to more information here -->
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDH1DaPdcCL_jU0QpHmpuwgRr03EUO0bp0",
+    authDomain: "d3exp-e9124.firebaseapp.com",
+    databaseURL: "https://d3exp-e9124.firebaseio.com",
+    storageBucket: "d3exp-e9124.appspot.com",
+    messagingSenderId: "258029721804"
+  };
+  firebase.initializeApp(config);
+</script>
+</html>

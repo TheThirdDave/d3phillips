@@ -1,0 +1,13 @@
+.nav-wrapper {
+  background-color: #607D8B;
+}
+
+.spacer {
+  height: 10px;
+}
+
+.i-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+}
